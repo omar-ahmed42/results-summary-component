@@ -37,7 +37,6 @@ body {
   overflow: hidden;
 
   border-radius: 25px;
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   box-shadow: 0 3px 10px hsl(221, 100%, 96%);
 
   height: 450px;
@@ -190,22 +189,22 @@ body {
   height: 50px;
 }
 
-#reaction {
+.summary-score-item:nth-of-type(1) {
   background-color: hsla(0, 100%, 67%, 0.103);
   color: hsl(0, 100%, 67%);
 }
 
-#memory {
+.summary-score-item:nth-of-type(2) {
   background-color: hsla(39, 100%, 56%, 0.103);
   color: hsl(39, 100%, 56%);
 }
 
-#verbal {
+.summary-score-item:nth-of-type(3) {
   background-color: hsl(166, 100%, 37%, 0.103);
   color: hsl(166, 100%, 37%);
 }
 
-#visual {
+.summary-score-item:nth-of-type(4) {
   background-color: hsl(221, 100%, 96%);
   color: hsl(234, 85%, 45%);
 }
@@ -226,7 +225,6 @@ body {
 
 .summary-score-name {
   flex: 1 1 0px;
-  padding-right: 10px;
 }
 
 .empty {
@@ -279,6 +277,6 @@ body {
 }
 
 .summary-continue-btn:hover {
-    cursor: pointer;
+  cursor: pointer;
   background-color: hsl(223, 31%, 23%);
 }
