@@ -34,6 +34,7 @@ body {
 .card {
   margin: auto;
   display: flex;
+  flex-direction: row;
   overflow: auto;
 
   border-radius: 25px;
@@ -279,4 +280,29 @@ body {
 .summary-continue-btn:hover {
   cursor: pointer;
   background-color: hsl(223, 31%, 23%);
+}
+
+@media only screen and (max-width: 600px) {
+  
+html,
+body {
+  min-height: 0vh;
+  min-width: 0vh;
+}
+
+  .card {
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 0px;
+    height: 100%;
+  }
+
+  .result-card {
+    border-radius: 0px 0px 25px 25px;
+  }
+
+  .summary-continue-btn {
+    margin-bottom: 25px;
+    width: 80%;
+  }
 }
