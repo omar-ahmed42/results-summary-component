@@ -34,13 +34,13 @@ body {
 .card {
   margin: auto;
   display: flex;
-  overflow: hidden;
+  overflow: auto;
 
   border-radius: 25px;
   box-shadow: 0 3px 10px hsl(221, 100%, 96%);
 
-  height: 450px;
-  width: 600px;
+  height: 28.125rem;
+  width: 37.5rem;
 }
 
 .result-card {
@@ -63,7 +63,7 @@ body {
   padding-top: 5px;
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 
   text-align: center;
   vertical-align: middle;
@@ -85,8 +85,8 @@ body {
   margin: 0 auto;
   border-radius: 50%;
 
-  width: 180px;
-  height: 180px;
+  width: 11.25rem;
+  height: 11.25rem;
   background-image: linear-gradient(
     to bottom,
     hsl(256, 72%, 46%, 1),
@@ -97,7 +97,7 @@ body {
 .score-value {
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 3.125rem;
 
   color: hsl(0, 0%, 100%);
 }
@@ -124,7 +124,7 @@ body {
 
   padding-top: 20px;
 
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   font-weight: 800;
   color: hsla(0, 0%, 100%, 0.849);
@@ -136,7 +136,7 @@ body {
   width: 100%;
   padding: 0px 40px 20px 40px;
 
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: hsla(222, 100%, 96%, 0.555);
@@ -163,7 +163,7 @@ body {
 
   font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .summary-scores {
@@ -186,7 +186,7 @@ body {
   border-radius: 10px;
 
   margin: 10px 30px;
-  height: 50px;
+  height: 3.125rem;
 }
 
 .summary-score-item:nth-of-type(1) {
@@ -270,8 +270,8 @@ body {
 
   color: hsl(0, 0%, 100%);
 
-  height: 50px;
-  width: 250px;
+  height: 3.125rem;
+  width: 15.625rem;
 
   box-shadow: 0 3px 10px hsl(221, 100%, 96%);
 }
