@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
 <body>
-
   <div class="background">
     <div class="card">
       <div class="result-card">
-        <div class="score-header">Your Result</div>
+        <div class="header-wrapper">
+          <div class="score-header">Your Result</div>
+        </div>
         <div class="score">
           <div class="score-circle-shape">
             <div class="result-scores-wrapper">
@@ -23,19 +25,23 @@
             </div>
           </div>
         </div>
-        <div class="score-grade">Great</div>
+        <div class="header-wrapper">
+          <div class="score-grade">Great</div>
+        </div>
         <div class="score-description">You scored higher than 65% of the people who have taken these tests.</div>
       </div>
       <div class="summary-card">
-        <div class="summary-header"></div>
+        <div class="header-wrapper">
+          <div class="summary-header">Summary</div>
+        </div>
         <div class="summary-scores">
-          <div class="summary-score-item">
-            <div>
+          <div class="summary-score-item" id="reaction">
+            <div class="summary-item-content-wrapper">
               <div class="summary-score-icon">
                 <img src="assets/images/icon-reaction.svg" alt="reaction">
               </div>
               <div class="summary-score name">
-                Reaction
+              Reaction
               </div>
             </div>
             <div class="empty"></div>
@@ -45,13 +51,13 @@
             </div>
           </div>
           <!-- end -->
-          <div class="summary-score-item">
-            <div>
+          <div class="summary-score-item" id="memory">
+            <div class="summary-item-content-wrapper">
               <div class="summary-score-icon">
                 <img src="assets/images/icon-memory.svg" alt="memory">
               </div>
               <div class="summary-score name">
-                Memory
+              Memory
               </div>
             </div>
             <div class="empty"></div>
@@ -61,13 +67,13 @@
             </div>
           </div>
           <!-- end -->
-          <div class="summary-score-item">
-            <div>
+          <div class="summary-score-item" id="verbal">
+            <div class="summary-item-content-wrapper">
               <div class="summary-score-icon">
                 <img src="assets/images/icon-verbal.svg" alt="verbal">
               </div>
               <div class="summary-score name">
-                Verbal
+              Verbal
               </div>
             </div>
             <div class="empty"></div>
@@ -77,13 +83,13 @@
             </div>
           </div>
           <!-- end -->
-          <div class="summary-score-item">
-            <div>
+          <div class="summary-score-item" id="visual">
+            <div class="summary-item-content-wrapper">
               <div class="summary-score-icon">
                 <img src="assets/images/icon-visual.svg" alt="visual">
               </div>
               <div class="summary-score name">
-                Visual
+              Visual
               </div>
             </div>
             <div class="empty"></div>
@@ -95,7 +101,7 @@
           <!-- end -->
         </div>
         <div class="summary-continue-wrapper">
-          <div class="summary-continue-btn"></div>
+          <div class="summary-continue-btn">Continue</div>
         </div>
       </div>
     </div>
